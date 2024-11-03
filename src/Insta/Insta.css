@@ -1,0 +1,65 @@
+
+body {
+    background-color: #f0f2f5; /* Light background color */
+    font-family: Arial, sans-serif; /* Use a clean font */
+    margin: 0;
+    padding: 20px; /* Add some padding around the content */
+}
+
+.card {
+    width: 350px;
+    height: auto; /* Allow height to adjust based on content */
+    border: 2px solid #ccc; /* Softer border color */
+    border-radius: 10px; /* Slightly more rounded corners */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white; /* White background for card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    padding: 20px; /* Padding inside the card */
+}
+
+.adjust {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Full width for inputs and buttons */
+}
+
+input[type='text'], input[type='password'] {
+    padding: 10px; /* Add padding for better input area */
+    margin: 10px 0; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 14px; /* Slightly larger font */
+}
+
+.btn1 {
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: white;
+    padding: 10px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor for button */
+    font-size: 16px; /* Larger font size */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.btn1:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+p {
+    margin: 10px 0; /* Space around paragraphs */
+}
+
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Pointer cursor for links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
